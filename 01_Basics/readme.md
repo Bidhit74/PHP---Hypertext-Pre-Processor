@@ -18,3 +18,15 @@
 -   Only letters, numbers, and underscores allowed (no spaces or special symbols).
 -   Case-sensitive ($name ≠ $Name).
 -   Must be assigned before use.
+
+# PHP with HTML
+
+1. Why we need PHP & HTML together:
+
+-   -   HTML → Structures the web page (headings, text, forms, images).
+-   -   PHP → Adds logic and dynamic content (processes forms, connects database, shows data).
+-   -   Together → Create dynamic websites (login systems, blogs, e-commerce).
+-   -   HTML alone is static; PHP makes it interactive and connected to backend.
+-   -   Example: HTML form takes input, PHP processes and stores it in a database.
+
+2. php write inside the html --> write php inside HTML tags
