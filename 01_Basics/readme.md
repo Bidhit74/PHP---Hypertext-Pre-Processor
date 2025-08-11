@@ -30,3 +30,10 @@
 -   -   Example: HTML form takes input, PHP processes and stores it in a database.
 
 2. php write inside the html --> write php inside HTML tags
+
+# Constant in PHP
+
+-   A constant is a name that holds a fixed value that cannot be changed during script execution.
+
+-   -   Created using define() or const.
+-   -   No $ sign before constant name.
