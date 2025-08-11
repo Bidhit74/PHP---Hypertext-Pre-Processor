@@ -19,3 +19,13 @@
 5. > < >= <= ---> Greater / Smaller compare karega
 
 6. <=> (Spaceship operator) → Compare karke -1, 0, ya 1 return karega
+
+# PHP Logical Operators
+
+1. and / && → Dono true hone chahiye
+
+2. or / || → Koi ek true ho to chalega
+
+3. xor → Sirf ek true ho (dono nahi)
+
+4. ! → Result ko ulta karega (true → false, false → true)
