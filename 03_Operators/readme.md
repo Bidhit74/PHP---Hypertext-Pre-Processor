@@ -29,3 +29,13 @@
 3. xor → Sirf ek true ho (dono nahi)
 
 4. ! → Result ko ulta karega (true → false, false → true)
+
+# Increment & Decrement
+
+1. ++$x → Pre Increment
+
+2. $x++ → Post Increment
+
+3. --$x → Pre Decrement
+
+4. $x-- → Post Decrement
