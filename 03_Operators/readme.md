@@ -39,3 +39,10 @@
 3. --$x → Pre Decrement
 
 4. $x-- → Post Decrement
+
+# String Operators in PHP
+
+-   In PHP, there are mainly two string operators:
+
+-   1. Concatenation Operator (.) – Joins two strings.
+-   2. Concatenation Assignment Operator (.=) – Appends one string to another.
