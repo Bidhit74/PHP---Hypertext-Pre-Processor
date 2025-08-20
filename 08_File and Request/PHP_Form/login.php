@@ -14,4 +14,8 @@
     echo "</br>";
     echo "Your Password is: ". $_POST['password'];
     }
+
+// $_REQUEST['name'] → Fetches from both GET & POST (and cookies).
+    echo "</br>";
+    echo "Always: Your Name is: " . $_REQUEST['username'];
 ?>
