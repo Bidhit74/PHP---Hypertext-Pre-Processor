@@ -87,3 +87,31 @@ Private ---- ✅ Yes ------ ❌ No -------- ❌ No
 -   Class ke andar constant ko const keyword se define karte hain.
 
 -   Access karne ke liye ClassName::CONSTANT_NAME ya self::CONSTANT_NAME use hota hai.
+
+# Inheritance
+
+-   We can extends the features of a class by using 'extends' keyword.
+
+-   Inheritance has three types, single, Hierarchical and multilevel Inheritance.
+
+-   PHP supports only single inheritance.
+
+# Interface
+
+-   Interface = Contract/Blueprint (Sirf method names/method declarations).
+
+-   Class must implement all methods of the interface.
+
+-   Multiple interfaces allowed → helps in multiple inheritance.
+
+-   Interface ke methods always public hote hain.
+
+-   USE - implements keyword
+
+# Static Key Points:
+
+-   Static variable sabhi objects ke liye common hota hai.
+
+-   Static method ko object ke bina call kiya ja sakta hai.
+
+-   Access keyword → self:: (inside class) aur ClassName:: (outside class).
