@@ -39,3 +39,43 @@ Private ---- ✅ Yes ------ ❌ No -------- ❌ No
 -   Inka kaam hota hai member variables (properties) ko use ya modify karna.
 
 -   Inhe object ke through call kiya jata hai.
+
+# Overloading
+
+-   PHP me function overloading (like Java/C++) directly support nahi hai.
+
+-   PHP me overloading ka matlab hota hai: Dynamically properties aur methods ko create/access karna jo class me define nahi hote.
+
+-   Ye kaam PHP ke magic methods se hota hai.
+
+# ✅ Important Magic Methods for Overloading:
+
+-   -   \_\_get($name) → Undefined property ko access karte waqt call hota hai.
+
+-   -   \_\_set($name, $value) → Undefined property ko value assign karte waqt call hota hai.
+
+-   -   \_\_call($name, $arguments) → Undefined/non-existing method ko call karne par chalta hai.
+
+-   -   \_\_isset($name) → isset() ya empty() use karne par.
+
+-   -   \_\_unset($name) → unset() use karne par.
+
+# Overriding
+
+-   Child class, parent ke method ko overwrite kar deti hai.
+
+# Constructor in PHP
+
+-   Constructor ek special function hai jo class ke andar hota hai.
+
+-   Jab bhi class ka object banate hain → ye automatically call hota hai.
+
+-   Syntax: \_\_construct()
+
+# Destructor in PHP
+
+-   Destructor bhi ek special function hai jo class ke andar hota hai.
+
+-   Jab object destroy hota hai (script khatam hone par ya unset karne par) → ye automatically call hota hai.
+
+-   Syntax: \_\_destruct()
