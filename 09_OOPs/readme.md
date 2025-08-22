@@ -79,3 +79,11 @@ Private ---- ✅ Yes ------ ❌ No -------- ❌ No
 -   Jab object destroy hota hai (script khatam hone par ya unset karne par) → ye automatically call hota hai.
 
 -   Syntax: \_\_destruct()
+
+# Class Constant
+
+-   Constant ek fixed value hoti hai jo change nahi hoti.
+
+-   Class ke andar constant ko const keyword se define karte hain.
+
+-   Access karne ke liye ClassName::CONSTANT_NAME ya self::CONSTANT_NAME use hota hai.
