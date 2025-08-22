@@ -15,3 +15,12 @@
 -   🔹Inheritance → One class can use properties & methods of another class.
 
 -   🔹Polymorphism → Same function name used in different ways.
+
+# Access Modifiers in PHP (OOPs)
+
+-   Access modifiers decide kahan se property/method ko access kar sakte ho.
+
+Modifier -- Same Class -- Child Class -- Outside Class
+Public ----- ✅ Yes ------ ✅ Yes ------- ✅ Yes
+Protected -- ✅ Yes ------ ✅ Yes ------- ❌ No
+Private ---- ✅ Yes ------ ❌ No -------- ❌ No
