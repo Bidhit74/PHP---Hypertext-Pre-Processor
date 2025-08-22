@@ -24,3 +24,18 @@ Modifier -- Same Class -- Child Class -- Outside Class
 Public ----- ✅ Yes ------ ✅ Yes ------- ✅ Yes
 Protected -- ✅ Yes ------ ✅ Yes ------- ❌ No
 Private ---- ✅ Yes ------ ❌ No -------- ❌ No
+
+# Member Variable
+
+-   Class ke andar declare kiya gaya variable jo object ka data store karta hai.
+-   Inhe object ke through access kiya jata hai (using $this-> inside class, and -> operator outside).
+
+# Member Function
+
+-   Member function = methods of a class.
+
+-   Ye functions class ke andar define hote hain.
+
+-   Inka kaam hota hai member variables (properties) ko use ya modify karna.
+
+-   Inhe object ke through call kiya jata hai.

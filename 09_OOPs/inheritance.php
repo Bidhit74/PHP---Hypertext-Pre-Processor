@@ -3,14 +3,16 @@ Ek class dusri class ke properties & methods ko use kar sakti hai (extends keywo
 
 <?php
     class Person {
-        public $name;
+        public $name; // 🔹 Member variables (properties)
+         // 🔹 Member Function (Method)
         public function greet() {
-            return "Hello, my name is $this->name";
+            return "Hello, my name is $this->name"; // $this->name is member variable
         }
     }
 
     class Student extends Person {
         public $course;
+        // 🔹 Member Function (Method)
         public function showCourse() {
             return "I am studying $this->course";
         }
