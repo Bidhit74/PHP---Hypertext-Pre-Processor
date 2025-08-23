@@ -1,6 +1,6 @@
 <!-- PHP me image handling ke liye GD Library ka use hota hai. Isme hum images create, resize, crop, watermark, convert kar sakte hain. -->
 
-<!-- 1. Create New Blank Image -->
+<!-- Create New Blank Image -->
 <?php
     // Create a blank image (width=200, height=100)
     $image = imagecreatetruecolor(200, 100);
