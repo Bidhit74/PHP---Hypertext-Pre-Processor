@@ -1,0 +1,2 @@
+Hello, this is first line.
+PHP File Handling Example.
