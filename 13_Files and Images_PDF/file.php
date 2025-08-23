@@ -24,13 +24,23 @@
     // fclose($file);
 
     // Open file in append mode ('a')
-    $file = fopen("example.txt", "a");
+    // $file = fopen("example.txt", "a");
 
     // Add new content at the end of file
-    fwrite($file, "This line is appended.\n");
+    // fwrite($file, "This line is appended.\n");
 
     // Close file
-    fclose($file);
+    // fclose($file);
 
-    echo "Data appended successfully!";
+    // echo "Data appended successfully!";
+
+    $filename = "example.txt";
+    // Check if file exists
+    if (file_exists($filename)) {
+        unlink($filename); // delete the file
+        echo "File deleted successfully!";
+    } else {
+        echo "File does not exist!";
+    }
+
 ?>
