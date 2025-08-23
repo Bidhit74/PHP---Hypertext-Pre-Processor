@@ -25,3 +25,23 @@
 -   'a' → Append (purane data ke sath naya add karega)
 
 -   'x' → Create new file (agar pehle se hai to error)
+
+# Common Image Functions
+
+-   PHP me image handling ke liye GD Library ka use hota hai. Isme hum images create, resize, crop, watermark, convert kar sakte hain.
+
+-   Create new → imagecreatetruecolor()
+
+-   Load existing → imagecreatefromjpeg(), imagecreatefrompng(), imagecreatefromgif()
+
+-   Save/Output → imagejpeg(), imagepng(), imagegif()
+
+-   Colors → imagecolorallocate()
+
+-   Draw → imagerectangle(), imageellipse(), imageline()
+
+-   Resize → imagecopyresampled()
+
+-   Text → imagestring(), imagettftext()
+
+-   Destroy → imagedestroy()
