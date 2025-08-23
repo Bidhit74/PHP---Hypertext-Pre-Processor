@@ -1,2 +1,3 @@
 Hello, this is first line.
 PHP File Handling Example.
+This line is appended.

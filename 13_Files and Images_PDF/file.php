@@ -12,14 +12,25 @@
     // fclose($file);
 
     // 4. File Open (read mode: 'r')
-    $file = fopen("example.txt", "r") or die("unable to read file");
+    // $file = fopen("example.txt", "r") or die("unable to read file");
 
     // 5. File Read (filesize() se pura content read hoga)
-    $content = fread($file, filesize("example.txt"));
+    // $content = fread($file, filesize("example.txt"));
 
     // Output file content
-    echo nl2br($content);  // nl2br() new line ko <br> me convert karega
+    // echo nl2br($content);  // nl2br() new line ko <br> me convert karega
 
     // 6. Close File
+    // fclose($file);
+
+    // Open file in append mode ('a')
+    $file = fopen("example.txt", "a");
+
+    // Add new content at the end of file
+    fwrite($file, "This line is appended.\n");
+
+    // Close file
     fclose($file);
+
+    echo "Data appended successfully!";
 ?>
